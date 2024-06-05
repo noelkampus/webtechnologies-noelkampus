@@ -5,10 +5,77 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Your HTML Page</title>
       <link rel="stylesheet" type="text/css" href="styles.css" />
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     </head>
+
     <body>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="sidebar__logo">
+          <img class="sidebar__logo--img" src="/assets/img/logo.svg" alt="logo">
+        </div>
+        <nav class="sidebar__nav">
+          <div class="sidebar__nav--link-block">
+            <span class="sidebar__nav--block-title">General</span>
+            <a class="sidebar__nav--link active-nav-link " href=""><i class="ri-verified-badge-fill ri-xl"></i>Link</a>
+            <a class="sidebar__nav--link" href=""><i class="ri-verified-badge-fill ri-xl"></i>Link</a>
+            <a class="sidebar__nav--link" href=""><i class="ri-verified-badge-fill ri-xl"></i>Link</a>
+          </div>
+          <div class="sidebar__nav--link-block">
+            <span class="sidebar__nav--block-title">Saved Pages</span>
+            <a class="sidebar__nav--link" href=""><i class="ri-pushpin-fill ri-xl"></i>Link</a>
+            <a class="sidebar__nav--link" href=""><i class="ri-pushpin-fill ri-xl"></i>Link</a>
+            <a class="sidebar__nav--link" href=""><i class="ri-pushpin-fill ri-xl"></i>Link</a>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="main">
+        <header class="header">
+          <input class="header__searchbar--input" type="text" placeholder="Search">
+          <!-- <div class="header__searchbar">
+            <input class="header__searchbar--input" type="text" placeholder="Search">
+            <i class="ri-verified-badge-fill ri-xl"></i>
+          </div> -->
+          <div class="header__account">
+            <div class="header__account--text">
+              <h6>Noel Kampus</h6>
+              <span>BA (Major) Interaction Design</span>
+            </div>
+            <div class="header__profilepicture">
+              <img class="header__profilepicture--img" src="assets/img/profilepicture.jpg" alt="">
+            </div>
+          </div>
+        </header>
+        <div class="subheader">
+          <h4>Good morning everyone</h4>
+        </div>
+        <div class="widgets-wrapper">
+          <div class="widget-wrapper__widget-card">
+
+          </div>
+          <div class="widget-wrapper__widget-card">
+
+          </div>
+          <div class="widget-wrapper__widget-card">
+
+          </div>
+          <div class="widget-wrapper__widget-card">
+
+          </div>
+          <div class="widget-wrapper__widget-card">
+
+          </div>
+          <div class="widget-wrapper__widget-card">
+
+          </div>
+        </div>
+      </main>
       
       <script src="script.js"></script>
     </body>
+
   </html>
   
